@@ -1,0 +1,1286 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'zh' Physical Memory: 16226 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/whale/Documents/GitHub/dinosaur/dinosaur20211001
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64145
+Successfully changed project path to: C:/Users/whale/Documents/GitHub/dinosaur/dinosaur20211001
+C:/Users/whale/Documents/GitHub/dinosaur/dinosaur20211001
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 124.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path D:/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/whale/Documents/GitHub/dinosaur/dinosaur20211001/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   26.21.14.4137
+Initialize mono
+Mono path[0] = 'D:/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004085 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 122.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.708 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4709ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1166ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 105.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2908ms)
+		BeginReloadAssembly (379ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (2391ms)
+			LoadAssemblies (241ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (860ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (867ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (552ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 7.559000 ms (FindLiveObjects: 0.476200 ms CreateObjectMapping: 0.259300 ms MarkObjects: 6.583500 ms  DeleteObjects: 0.237100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/場景素材
+  artifactKey: Guid(4dbf0f8574ad75949b5ef1333228dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材 using Guid(4dbf0f8574ad75949b5ef1333228dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fafb3d2366d21b5e8096dd4c0cfee23') in 0.026030 seconds 
+  Import took 0.041959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1578.766533 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props
+  artifactKey: Guid(1f08d781702466b438d35aa7938d8030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props using Guid(1f08d781702466b438d35aa7938d8030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d0ee06777279a5df54c5441e1b0263') in 0.003762 seconds 
+  Import took 0.007792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.215117 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png
+  artifactKey: Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png using Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1356049b4987f1ab94b0ca3938456c5') in 0.141485 seconds 
+  Import took 0.144730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e8cbfd73e5a2118f525430884e0f6a') in 0.020507 seconds 
+  Import took 0.023175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd5a3b5bd8129f3166c5aa0c662e09c') in 0.111944 seconds 
+  Import took 0.114706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture
+  artifactKey: Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture using Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49218b2e2a296db1cad4179661b2a9fb') in 0.002962 seconds 
+  Import took 0.005610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6df726575e22f6b1de712bc2df7808e') in 0.346750 seconds 
+  Import took 0.350678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2fab95ad34d74c9a64aeb484c286e1') in 0.075899 seconds 
+  Import took 0.078680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.749178 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken.prefab
+  artifactKey: Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken.prefab using Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f1059c23ba11d9c3baf4fcb1ce4bcb') in 0.047432 seconds 
+  Import took 0.052169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab
+  artifactKey: Guid(a657d1104ca50f54dac2bf8d3d8e9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab using Guid(a657d1104ca50f54dac2bf8d3d8e9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9edf212ad462b98353a087f9943218') in 0.022133 seconds 
+  Import took 0.025184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.275462 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Fire.mat
+  artifactKey: Guid(dce4faabfa7d00147bb7d853e5c1fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Fire.mat using Guid(dce4faabfa7d00147bb7d853e5c1fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90ff633051c9112fb31050bc976cbd0') in 0.176146 seconds 
+  Import took 0.179504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Spark.mat
+  artifactKey: Guid(23524a906e8f5eb4384f92eb87af52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Spark.mat using Guid(23524a906e8f5eb4384f92eb87af52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225e68a24654691f4aedb68393def03a') in 0.011413 seconds 
+  Import took 0.014436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Glow.mat
+  artifactKey: Guid(6c48dc6ed4cda324b83bb2391ca6fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Glow.mat using Guid(6c48dc6ed4cda324b83bb2391ca6fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe71cf4db70b34234b34505600ccff49') in 0.011877 seconds 
+  Import took 0.014773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.644767 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Prefab/PF FX Campfire Fire.prefab
+  artifactKey: Guid(2b206c0d2afb3604183d9210be1d84ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Prefab/PF FX Campfire Fire.prefab using Guid(2b206c0d2afb3604183d9210be1d84ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af5f618920814676af49859b8c5f41c') in 0.014277 seconds 
+  Import took 0.018044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Prefab/PF FX Torch Fire.prefab
+  artifactKey: Guid(4cfc0b96b77f5374a9242d6779dd65bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Prefab/PF FX Torch Fire.prefab using Guid(4cfc0b96b77f5374a9242d6779dd65bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0a650bcfe64df08315b7eaa497b82b') in 0.010834 seconds 
+  Import took 0.013809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Prefab/PF FX Fire Bowl Fire.prefab
+  artifactKey: Guid(69e62f89c9d82ba4085d34eeff6f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Prefab/PF FX Fire Bowl Fire.prefab using Guid(69e62f89c9d82ba4085d34eeff6f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d5b6523b3291ea0fe15618ccfcb9b8') in 0.010718 seconds 
+  Import took 0.013645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1373.893167 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/props/rocks1.png
+  artifactKey: Guid(a3cd38fa682a2ce46acd9c15c5e12206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/props/rocks1.png using Guid(a3cd38fa682a2ce46acd9c15c5e12206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafdec93cf56f5ad59e1e47c6bb61e69') in 0.020889 seconds 
+  Import took 0.025529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/props/rocks2.png
+  artifactKey: Guid(3fe94fc2ab11dfb44ad099f9d1bd33a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/props/rocks2.png using Guid(3fe94fc2ab11dfb44ad099f9d1bd33a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0d760edbc5ec5eb98365f90b273d9e') in 0.023271 seconds 
+  Import took 0.026667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/props/rocks3.png
+  artifactKey: Guid(adeea38ceac256b43b90e7505573e8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/props/rocks3.png using Guid(adeea38ceac256b43b90e7505573e8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437aa0d1001846ea867752b3d6a4b743') in 0.014871 seconds 
+  Import took 0.017892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/props/tree03.png
+  artifactKey: Guid(b8c93b578e9c0fd448eed69a27771c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/props/tree03.png using Guid(b8c93b578e9c0fd448eed69a27771c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d5fefaea81adcb1de353f28965be83') in 0.012618 seconds 
+  Import took 0.016030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/props/rocks5.png
+  artifactKey: Guid(300b11d2cda8a6b4890da97693a5fa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/props/rocks5.png using Guid(300b11d2cda8a6b4890da97693a5fa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd77f022d53800c6ac290af48578df99') in 0.011625 seconds 
+  Import took 0.015480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/props/tree02.png
+  artifactKey: Guid(cc83c1adaad0dd04bb470aeb972de452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/props/tree02.png using Guid(cc83c1adaad0dd04bb470aeb972de452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01a475d945ee46bee43edc99e1f386b') in 0.012655 seconds 
+  Import took 0.015909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/props/tree04.png
+  artifactKey: Guid(1c61892eaa6c1f4448be966ad854ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/props/tree04.png using Guid(1c61892eaa6c1f4448be966ad854ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b4f3ffab7c5edbf3232d6360a61b28') in 0.011754 seconds 
+  Import took 0.014834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/props/tree01.png
+  artifactKey: Guid(db1961a92b07be94ab7edba659602e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/props/tree01.png using Guid(db1961a92b07be94ab7edba659602e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78539cf93fa5009f151a709f623dbcf') in 0.013354 seconds 
+  Import took 0.016769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/props/rocks4.png
+  artifactKey: Guid(c4452c98fa9ce144080f53386d8ee161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/props/rocks4.png using Guid(c4452c98fa9ce144080f53386d8ee161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e8f608880a2d6fcafe071897da4f2a') in 0.012015 seconds 
+  Import took 0.016082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/props/rocks6.png
+  artifactKey: Guid(5284e27a57dec7049b0a629e86af4d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/props/rocks6.png using Guid(5284e27a57dec7049b0a629e86af4d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28063955d30c48587298889f17100fe9') in 0.011724 seconds 
+  Import took 0.015514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.811349 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/showcase/plat_show1.png
+  artifactKey: Guid(419cd013d11b2034184ccdaafce56942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/showcase/plat_show1.png using Guid(419cd013d11b2034184ccdaafce56942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0448a9b2967bd338a40e80414743f4') in 0.012416 seconds 
+  Import took 0.015424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/showcase/plat_show2.png
+  artifactKey: Guid(59a2bc1558ee19246b01e75990bafb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/showcase/plat_show2.png using Guid(59a2bc1558ee19246b01e75990bafb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b965c78b5b8095c797c8b60f6394a9') in 0.015560 seconds 
+  Import took 0.018902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/showcase/plat_show4.png
+  artifactKey: Guid(9e70c219c1a771449be72324ef45eed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/showcase/plat_show4.png using Guid(9e70c219c1a771449be72324ef45eed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b186e0cbdc285c3bab996e4666cc64') in 0.014438 seconds 
+  Import took 0.017471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/showcase/plat_show5.png
+  artifactKey: Guid(77369888b22aec94eb0205a81ef3ea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/showcase/plat_show5.png using Guid(77369888b22aec94eb0205a81ef3ea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbc61fc6a2ad9447220521fa9252a71') in 0.013332 seconds 
+  Import took 0.016540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/showcase/plat_show3.png
+  artifactKey: Guid(b17e5d949365ae04eafbd0c9a3431312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/showcase/plat_show3.png using Guid(b17e5d949365ae04eafbd0c9a3431312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b05c7ddd3a699dfafdfb9349fc2254') in 0.013097 seconds 
+  Import took 0.016228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.617567 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/00Atlas.png
+  artifactKey: Guid(c3d6aca97e39700479b0de4e9bb341b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/00Atlas.png using Guid(c3d6aca97e39700479b0de4e9bb341b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02dba5986fae6a380ef50fe3ce55cfe') in 0.014788 seconds 
+  Import took 0.017930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge1.png
+  artifactKey: Guid(9b6499db64ef542448266119ec6c0b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge1.png using Guid(9b6499db64ef542448266119ec6c0b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7368cd3635a2cd20eaff04f712b05460') in 0.012890 seconds 
+  Import took 0.016251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge9.png
+  artifactKey: Guid(eefad5ce095b3674bb57cd33711c7c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge9.png using Guid(eefad5ce095b3674bb57cd33711c7c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0355483dc7c462c6536bb248b19824e0') in 0.013447 seconds 
+  Import took 0.016817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge3.png
+  artifactKey: Guid(9c915fd0a2a6a4347ad0d88e2bdb81ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge3.png using Guid(9c915fd0a2a6a4347ad0d88e2bdb81ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f3e44aa8939a5d06247a2ad2b1bdce') in 0.012809 seconds 
+  Import took 0.016425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge2.png
+  artifactKey: Guid(eb43b189f5cb6a4428afca64c2bfb45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge2.png using Guid(eb43b189f5cb6a4428afca64c2bfb45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c4dd31870bf650d40bd2ae085307be') in 0.010923 seconds 
+  Import took 0.015367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge6.png
+  artifactKey: Guid(13bda9724f311eb41885fabc1951cabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge6.png using Guid(13bda9724f311eb41885fabc1951cabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2ca287b4fe7168a5d1b19b479210e8') in 0.012789 seconds 
+  Import took 0.016104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge8.png
+  artifactKey: Guid(e162635cbf7c35a4998369c6b56bd5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge8.png using Guid(e162635cbf7c35a4998369c6b56bd5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6b8f83b0b574c2ae50b339b9708b6d') in 0.014428 seconds 
+  Import took 0.017383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge4.png
+  artifactKey: Guid(4ed3ee3b67f8cfb4eac0f8faa11db7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge4.png using Guid(4ed3ee3b67f8cfb4eac0f8faa11db7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7ffcb574c7a3b57607d4be69a63eb9') in 0.012108 seconds 
+  Import took 0.015777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge7.png
+  artifactKey: Guid(b278201b0d5c6824c965f7b9505428cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge7.png using Guid(b278201b0d5c6824c965f7b9505428cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349508b101241b562ba46331869f995c') in 0.011489 seconds 
+  Import took 0.015093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge5.png
+  artifactKey: Guid(ca38f2e203e4aed43866f8454def2f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/bridge5.png using Guid(ca38f2e203e4aed43866f8454def2f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2616417f6d144c9b7c25c1461bee61a7') in 0.011609 seconds 
+  Import took 0.014937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass1.png
+  artifactKey: Guid(4cbd0e521f8646b48a0dc40d83fd4831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass1.png using Guid(4cbd0e521f8646b48a0dc40d83fd4831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565c9694f7cc9777924a5358e2f14e0d') in 0.013035 seconds 
+  Import took 0.016313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.611877 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Background/BG-mountains.png
+  artifactKey: Guid(3a9c127eb0fa2ec4fbcfe545b63bf6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Background/BG-mountains.png using Guid(3a9c127eb0fa2ec4fbcfe545b63bf6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0f76661f3ccb3244cd3f3be5ea73bb') in 0.015439 seconds 
+  Import took 0.019542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Background/BG-sun.png
+  artifactKey: Guid(3054abfa278c91444b182b5cc17831aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Background/BG-sun.png using Guid(3054abfa278c91444b182b5cc17831aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66614933571baf5ad8a911916b66b55d') in 0.017277 seconds 
+  Import took 0.020281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Background/BG-sky.png
+  artifactKey: Guid(61e58f7989b5d9c42b39644eab14db0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Background/BG-sky.png using Guid(61e58f7989b5d9c42b39644eab14db0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc8447222314f4afa122ec21e325311') in 0.014535 seconds 
+  Import took 0.017730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Background/BG-ruins.png
+  artifactKey: Guid(9bf35aeeba896314eac51536c7a19f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Background/BG-ruins.png using Guid(9bf35aeeba896314eac51536c7a19f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb0fb385b064c0c6ae7caedf5f90085') in 0.018542 seconds 
+  Import took 0.023313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752640 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/plat_showcover.gif
+  artifactKey: Guid(d21d3560857e4cb418b01d38ad7d717d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/plat_showcover.gif using Guid(d21d3560857e4cb418b01d38ad7d717d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3499bd770974dc46240a4ab2d5bd75f3') in 0.018826 seconds 
+  Import took 0.023220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.520936 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/mockup.aseprite
+  artifactKey: Guid(96bc7c5c79cea284c9c7e1377123e8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/mockup.aseprite using Guid(96bc7c5c79cea284c9c7e1377123e8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf154f65f3413aa83d39a1b383d0c38d') in 0.007637 seconds 
+  Import took 0.011094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.984085 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png
+  artifactKey: Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png using Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d31af1d7d40155089c71f14a4db8b1') in 0.013407 seconds 
+  Import took 0.016693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd1f0a2d07d95972b2b6de8d50696f4') in 0.019690 seconds 
+  Import took 0.022973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15409b830d6ffe408b8cea3aad30d6d') in 0.018008 seconds 
+  Import took 0.020870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180340ee9899a31c3c04cc073a49128d') in 0.018073 seconds 
+  Import took 0.021457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc041e0b68299994ff8dca6c79267f5d') in 0.017094 seconds 
+  Import took 0.020029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.595153 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb05330251fd2b897944235e9516216') in 0.008580 seconds 
+  Import took 0.013056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 296.027767 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb158b13c5e864a837908bfd3b860977') in 0.010894 seconds 
+  Import took 0.014794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 723.200142 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f0f2ea90b986a101ca8583e72d8ee3') in 0.323901 seconds 
+  Import took 0.329440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.544849 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert
+  artifactKey: Guid(16afc0f17309dea49a61df686fe387d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert using Guid(16afc0f17309dea49a61df686fe387d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7659c4c4934877d02f48350eb4598868') in 0.005253 seconds 
+  Import took 0.008423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.688588 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Background
+  artifactKey: Guid(d4551c35ea5e7c04ab5506433ae1a64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Background using Guid(d4551c35ea5e7c04ab5506433ae1a64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8287985eeb091eee2646fab040ee2327') in 0.004669 seconds 
+  Import took 0.008478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.177736 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda130da879fbdc9daddb93cea507817') in 0.317565 seconds 
+  Import took 0.325755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.808415 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd137dfc2428258bd482bbe093d9e85') in 0.008730 seconds 
+  Import took 0.011908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.104683 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feecaa14fa8738b241ce7f510808ec33') in 0.096911 seconds 
+  Import took 0.100333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.819612 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d265fa7fc13bcdb38c95b77e33fab4e') in 0.008719 seconds 
+  Import took 0.012200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.609048 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736ec0ecc70eebb69e1c779152e564b4') in 0.097623 seconds 
+  Import took 0.101031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.717466 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb626b4f50a2dcca01d31f072885156') in 0.007911 seconds 
+  Import took 0.011324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.066677 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f9e9a12c921c0e663c5d6dbcf7d32f') in 0.096930 seconds 
+  Import took 0.100448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.008847 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/00Atlas.png
+  artifactKey: Guid(c3d6aca97e39700479b0de4e9bb341b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/00Atlas.png using Guid(c3d6aca97e39700479b0de4e9bb341b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbac7ce1f0217dd6f75406e5cb768a54') in 0.008031 seconds 
+  Import took 0.011156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 456.034397 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/00Atlas.png
+  artifactKey: Guid(c3d6aca97e39700479b0de4e9bb341b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/00Atlas.png using Guid(c3d6aca97e39700479b0de4e9bb341b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655aa6f95d5eaa30e7f3451a7163cb67') in 0.220149 seconds 
+  Import took 0.224358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2026.618516 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_3.asset
+  artifactKey: Guid(328daf82f3dc6bb4c8f2ecbecb51730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_3.asset using Guid(328daf82f3dc6bb4c8f2ecbecb51730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae003dce3612d6431fac86b3e1321f96') in 0.041881 seconds 
+  Import took 0.049062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_18.asset
+  artifactKey: Guid(c9251b93cbfbdae4cbfe1a5fe3461274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_18.asset using Guid(c9251b93cbfbdae4cbfe1a5fe3461274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b89dfe0becfe86552506edb24468e9') in 0.010649 seconds 
+  Import took 0.014221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_7.asset
+  artifactKey: Guid(6d63fdce219ed58469709f05efa66d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_7.asset using Guid(6d63fdce219ed58469709f05efa66d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cd0dfcf27a499dadb554b01b535994') in 0.009131 seconds 
+  Import took 0.012412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.498072 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_19.asset
+  artifactKey: Guid(3faf797e6204d3646a23223a66957a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_19.asset using Guid(3faf797e6204d3646a23223a66957a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1cc2072a4ef5366257250e3d7947e8') in 0.010536 seconds 
+  Import took 0.014913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002339 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_20.asset
+  artifactKey: Guid(722939708d3b95b48b0729946c538ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_20.asset using Guid(722939708d3b95b48b0729946c538ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cda132f70967542fed97cb94731893') in 0.008894 seconds 
+  Import took 0.012092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_21.asset
+  artifactKey: Guid(09c2d0423e28b4740b690da54603f1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_21.asset using Guid(09c2d0423e28b4740b690da54603f1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b1c3dc263b07c890f8a2e70af77635') in 0.007685 seconds 
+  Import took 0.010763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_25.asset
+  artifactKey: Guid(9b53cab5e7cc13249b1c76b554a98ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_25.asset using Guid(9b53cab5e7cc13249b1c76b554a98ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad70eb7d7e084842696a137dcdb6342d') in 0.008491 seconds 
+  Import took 0.011989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_24.asset
+  artifactKey: Guid(33895b1028fd6a4499fdc9774794cfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_24.asset using Guid(33895b1028fd6a4499fdc9774794cfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f61af0ddf8df7a3a7a16920552c714a') in 0.008346 seconds 
+  Import took 0.011904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_26.asset
+  artifactKey: Guid(99f925f03c6ae374c81fc099ac0a605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_26.asset using Guid(99f925f03c6ae374c81fc099ac0a605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b780ab281eade425882f5d1ba088696f') in 0.008322 seconds 
+  Import took 0.011864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_22.asset
+  artifactKey: Guid(ab66d2652c079bb4591a085eb0f7025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_22.asset using Guid(ab66d2652c079bb4591a085eb0f7025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62be6bfa836549b5510aba1bc63f7a05') in 0.014642 seconds 
+  Import took 0.018078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.581003 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_30.asset
+  artifactKey: Guid(87d857f066b39974e8a9b7c11bdc935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_30.asset using Guid(87d857f066b39974e8a9b7c11bdc935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e2d879af46f2d6d3f4650d997d8262') in 0.009540 seconds 
+  Import took 0.012868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 481.380025 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714a80e97524718d89e2267f84f22f83') in 0.117930 seconds 
+  Import took 0.121596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 622.231214 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf641204295750a2339eba5d3da83ca') in 0.106988 seconds 
+  Import took 0.112549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2327.972029 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass2.png
+  artifactKey: Guid(aec4439a367da6044958275ecca1392a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass2.png using Guid(aec4439a367da6044958275ecca1392a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ba158c1f83e3223e2c9444701bbbd9') in 0.019617 seconds 
+  Import took 0.024003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass9.png
+  artifactKey: Guid(ddcbc44620fee9d41a5c9be75d877423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass9.png using Guid(ddcbc44620fee9d41a5c9be75d877423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac197734be2e1e91a04ac029c696c36a') in 0.017550 seconds 
+  Import took 0.021028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass7.png
+  artifactKey: Guid(c636258bdad000b44a629e8df5bcb036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass7.png using Guid(c636258bdad000b44a629e8df5bcb036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649785b606181a94458f2a3973b7f34f') in 0.021595 seconds 
+  Import took 0.025354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass5.png
+  artifactKey: Guid(d4fe4356515882f4a8de595a4366089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass5.png using Guid(d4fe4356515882f4a8de595a4366089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cddc353725127c5e4e8de58ef54e6dc') in 0.017829 seconds 
+  Import took 0.021717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass4.png
+  artifactKey: Guid(69c189845146a0a4c88fe929c79914d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass4.png using Guid(69c189845146a0a4c88fe929c79914d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38634721dc88139b4fedf901db91cb7') in 0.015192 seconds 
+  Import took 0.018837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass6.png
+  artifactKey: Guid(173e95001f48fb344897fc7a1fa69066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass6.png using Guid(173e95001f48fb344897fc7a1fa69066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93c58b9485404ab5d8419be00e4025b') in 0.012413 seconds 
+  Import took 0.016016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass3.png
+  artifactKey: Guid(eaf4f3a1162d0664a8e1272c10791d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass3.png using Guid(eaf4f3a1162d0664a8e1272c10791d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21fbf2495870090b0dcaf04765171a3') in 0.014624 seconds 
+  Import took 0.017613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass8.png
+  artifactKey: Guid(36ba95212b6db704596c93ecd2375e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass8.png using Guid(36ba95212b6db704596c93ecd2375e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9b6a3b2e6ff2d979b3429b9d65f39c') in 0.020556 seconds 
+  Import took 0.024140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.570427 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass10.png
+  artifactKey: Guid(e2f69d03f615a4c44bfc1222418aabf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass10.png using Guid(e2f69d03f615a4c44bfc1222418aabf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f086218ddfa6caabed762304d8b1f3ff') in 0.014922 seconds 
+  Import took 0.018390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass12.png
+  artifactKey: Guid(b905fe74f2df87c4483e676b411e28de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass12.png using Guid(b905fe74f2df87c4483e676b411e28de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fd5019c393751ddcaad3bfe12a0d1c') in 0.015481 seconds 
+  Import took 0.018563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/grass11.png
+  artifactKey: Guid(070d7033da465f34bb4f71958c702b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/grass11.png using Guid(070d7033da465f34bb4f71958c702b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229841af3c03c18884a2fa61319314b7') in 0.012305 seconds 
+  Import took 0.015897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004538 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms1.png
+  artifactKey: Guid(cb1f7a63381e7b34db8c577cdb301eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms1.png using Guid(cb1f7a63381e7b34db8c577cdb301eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ed7aaee24c4a99bdfd71e607ff3750') in 0.013738 seconds 
+  Import took 0.017262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms3.png
+  artifactKey: Guid(005d0e9f872af3f45ab36ff8a2f16760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms3.png using Guid(005d0e9f872af3f45ab36ff8a2f16760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed80c4916a06623f34b7ad38d2419cb0') in 0.012026 seconds 
+  Import took 0.015207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms6.png
+  artifactKey: Guid(ab505ce62e0d0024ab9916d8e39e0808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms6.png using Guid(ab505ce62e0d0024ab9916d8e39e0808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2197248f9f186b0cdc4e5ca017b8119') in 0.013176 seconds 
+  Import took 0.016528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms2.png
+  artifactKey: Guid(634c0ef015c41844b8e0498f10594925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms2.png using Guid(634c0ef015c41844b8e0498f10594925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c232e4cc51715daedb52a85373ebcb') in 0.013027 seconds 
+  Import took 0.016204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms7.png
+  artifactKey: Guid(e2b0b8058bcc9204f919f3307ee642b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms7.png using Guid(e2b0b8058bcc9204f919f3307ee642b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e035aa341fc6c6b84445a10175baad5') in 0.014065 seconds 
+  Import took 0.017277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms12.png
+  artifactKey: Guid(27f50e55d6498b4448ac9ab1161dbd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms12.png using Guid(27f50e55d6498b4448ac9ab1161dbd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d4d1c419d02d23503182ffde37487f') in 0.012718 seconds 
+  Import took 0.016015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms4.png
+  artifactKey: Guid(0b6e0610e609ef946b125a302c3678a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms4.png using Guid(0b6e0610e609ef946b125a302c3678a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe8f3f2ca05f9ac2324d7a93ac86f49') in 0.018305 seconds 
+  Import took 0.021951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation1.png
+  artifactKey: Guid(66716ad80d3bf1644ba0067ee8b54815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation1.png using Guid(66716ad80d3bf1644ba0067ee8b54815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861943ca21d1596197c58d0d9ab82da3') in 0.012890 seconds 
+  Import took 0.016115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation4.png
+  artifactKey: Guid(c7e1ef5a5ef75844fa3fcd73841ef840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation4.png using Guid(c7e1ef5a5ef75844fa3fcd73841ef840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd699c123d022552ea68355c2b7cdbc04') in 0.013710 seconds 
+  Import took 0.016843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation7.png
+  artifactKey: Guid(87dd366c82428954792803e1ae67b77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation7.png using Guid(87dd366c82428954792803e1ae67b77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd6d9c0c16b3e7c7fe77ec98f44b5a9') in 0.012210 seconds 
+  Import took 0.015641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation8.png
+  artifactKey: Guid(4140a2f78a36eb84fb6108b3c81002de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation8.png using Guid(4140a2f78a36eb84fb6108b3c81002de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0f29434e71a5d07fd78e814d2581f9') in 0.012865 seconds 
+  Import took 0.016314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation6.png
+  artifactKey: Guid(34b9b29ede693924b9df577502ac7479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation6.png using Guid(34b9b29ede693924b9df577502ac7479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aea9dc548405a1039712508acf24d5c') in 0.014345 seconds 
+  Import took 0.017999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation2.png
+  artifactKey: Guid(9e152dcc12cdbc94ba8c0f6359985fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation2.png using Guid(9e152dcc12cdbc94ba8c0f6359985fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f928028cdea995ef7f6a4950964ed53a') in 0.011706 seconds 
+  Import took 0.015122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms11.png
+  artifactKey: Guid(8628bc03299d13344b512cdb3820f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms11.png using Guid(8628bc03299d13344b512cdb3820f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8700ad47f6f0c2cc9f7a8fe3dd36619') in 0.011612 seconds 
+  Import took 0.015878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms9.png
+  artifactKey: Guid(24c828bc0a2e1584d861b084955dff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms9.png using Guid(24c828bc0a2e1584d861b084955dff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1787c55ac96097396eabe98e20c16f') in 0.013103 seconds 
+  Import took 0.016371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms5.png
+  artifactKey: Guid(4f374800651a3254b9f15b62e87c1806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms5.png using Guid(4f374800651a3254b9f15b62e87c1806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ca471caa31666167f39c2574d5369e') in 0.012156 seconds 
+  Import took 0.016649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation15.png
+  artifactKey: Guid(258b02b475567bc45a802dd4ade67b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation15.png using Guid(258b02b475567bc45a802dd4ade67b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cafe1b088b3d82db76183670ec68240') in 0.012606 seconds 
+  Import took 0.016832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation13.png
+  artifactKey: Guid(2506fb0314ea4f34e83528c5a2a94a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation13.png using Guid(2506fb0314ea4f34e83528c5a2a94a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67873389822652d13dc38f425bb99343') in 0.011573 seconds 
+  Import took 0.015833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation14.png
+  artifactKey: Guid(7675aa3d7e8e35f45bf28752f0e72b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation14.png using Guid(7675aa3d7e8e35f45bf28752f0e72b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00bf3f01c5e1cfdf899a4a45b13d77c') in 0.013902 seconds 
+  Import took 0.017847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation11.png
+  artifactKey: Guid(5282b19b810e66f47bfb925e613b8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation11.png using Guid(5282b19b810e66f47bfb925e613b8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b73a914e6c211e73cdd7e4bd988d2cb') in 0.013680 seconds 
+  Import took 0.017278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation12.png
+  artifactKey: Guid(dcfbfdbd821067a43a502074e0fb6c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation12.png using Guid(dcfbfdbd821067a43a502074e0fb6c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25a19efe7582adab1105d19bb64b2ac') in 0.012967 seconds 
+  Import took 0.016523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms10.png
+  artifactKey: Guid(e5ea47e39d24fcc4097476a8a4bbe7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms10.png using Guid(e5ea47e39d24fcc4097476a8a4bbe7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27742b0408e1dbfa93ce24b653579a6f') in 0.013240 seconds 
+  Import took 0.016444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms8.png
+  artifactKey: Guid(176a5cb624e28954eb25c8906a53cdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platforms8.png using Guid(176a5cb624e28954eb25c8906a53cdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b19dc4bc957d97f375c46d2ea954230') in 0.011192 seconds 
+  Import took 0.014657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation5.png
+  artifactKey: Guid(06722d65fdb367f4bb396be37d27b85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation5.png using Guid(06722d65fdb367f4bb396be37d27b85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fabdd17dfd650c919199c3770ab593') in 0.011439 seconds 
+  Import took 0.015352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation3.png
+  artifactKey: Guid(cc06077de4fc92849ac5aef46959ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation3.png using Guid(cc06077de4fc92849ac5aef46959ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a81f62f1d420ad9f4ef7c927795784c') in 0.012837 seconds 
+  Import took 0.016089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation16.png
+  artifactKey: Guid(55be53a3caeafae48b9cab057ef9b1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation16.png using Guid(55be53a3caeafae48b9cab057ef9b1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604d54a599d1a4be97c1323139a4ad26') in 0.011583 seconds 
+  Import took 0.014893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation17.png
+  artifactKey: Guid(5e3ca12e4c0c41442af86e911b72787c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation17.png using Guid(5e3ca12e4c0c41442af86e911b72787c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb5afb64c7049d0777d20160a763afa') in 0.011695 seconds 
+  Import took 0.015197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain2.png
+  artifactKey: Guid(8207beb0344cc064b923a5b36ed548a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain2.png using Guid(8207beb0344cc064b923a5b36ed548a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1562db038c3a2d1051eefc9a831a1c8d') in 0.011425 seconds 
+  Import took 0.015271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation18.png
+  artifactKey: Guid(678cc8160c542984ab59d603b83af84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation18.png using Guid(678cc8160c542984ab59d603b83af84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3547a9ec1b7ed4cd2ffb3a00cf626c') in 0.014699 seconds 
+  Import took 0.017853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain6.png
+  artifactKey: Guid(940c674375adb184c8428aba693135f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain6.png using Guid(940c674375adb184c8428aba693135f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd54c0b80ca928b695ec6159255cb79') in 0.011888 seconds 
+  Import took 0.016371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain4.png
+  artifactKey: Guid(c8a74d5758aaf954292a8d0a8747b59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain4.png using Guid(c8a74d5758aaf954292a8d0a8747b59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72e0f5c9bcd91af9da1ff5cbc825daf') in 0.012985 seconds 
+  Import took 0.017120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain5.png
+  artifactKey: Guid(755d5ea92674f294699d4b9a571b49ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain5.png using Guid(755d5ea92674f294699d4b9a571b49ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfdd9bf234f8fbb812ae3125b311960') in 0.011262 seconds 
+  Import took 0.015842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain8.png
+  artifactKey: Guid(6eceacd87a6cd0c45a1c6d8ae2734533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain8.png using Guid(6eceacd87a6cd0c45a1c6d8ae2734533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178d6fcae3a4a436666df419b4573254') in 0.012956 seconds 
+  Import took 0.017194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain9.png
+  artifactKey: Guid(be945c9ad0797c4449def0b48a3052dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain9.png using Guid(be945c9ad0797c4449def0b48a3052dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43421a63e052f93d310cfc7754feb031') in 0.010802 seconds 
+  Import took 0.014054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain7.png
+  artifactKey: Guid(f1ef265f5c979444b97ea418b5247f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain7.png using Guid(f1ef265f5c979444b97ea418b5247f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d482a6bc4333bcdb4a0765c4daf6d92') in 0.011117 seconds 
+  Import took 0.014981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain1.png
+  artifactKey: Guid(f32f2783a809aa347a64c72fdf3953e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain1.png using Guid(f32f2783a809aa347a64c72fdf3953e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1141f6998fc5d99377ecbcf8e3740910') in 0.011795 seconds 
+  Import took 0.015522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation9.png
+  artifactKey: Guid(d2795c01534605142b3ecd46e741f48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation9.png using Guid(d2795c01534605142b3ecd46e741f48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732702696e8d921cae8870f8baa71934') in 0.013114 seconds 
+  Import took 0.016973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation10.png
+  artifactKey: Guid(3e5f09f9238248a40b058644ee3b84e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/platvariation10.png using Guid(3e5f09f9238248a40b058644ee3b84e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e63d714a29aa274da911edec04e07a0') in 0.012975 seconds 
+  Import took 0.016092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain3.png
+  artifactKey: Guid(5a238b56e715ed7429d61f7658243043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Platformer - desert/Tileset/tileMain3.png using Guid(5a238b56e715ed7429d61f7658243043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868d163cbd57f4f8e6476f5357a66950') in 0.011656 seconds 
+  Import took 0.015167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.867790 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_0.asset
+  artifactKey: Guid(2e49af0d6329f7c4f944d2f6ec3b5c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_0.asset using Guid(2e49af0d6329f7c4f944d2f6ec3b5c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c4cb4d988e5889fce90b93ad15abdf') in 0.008663 seconds 
+  Import took 0.011928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029905 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_1.asset
+  artifactKey: Guid(f3441a4d9604bcb42b88b141217b2296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_1.asset using Guid(f3441a4d9604bcb42b88b141217b2296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383a62451a630227c3803c03b671f9d3') in 0.010459 seconds 
+  Import took 0.014037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_8.asset
+  artifactKey: Guid(c6ae91961354b0748a66e3fccf5a2296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_8.asset using Guid(c6ae91961354b0748a66e3fccf5a2296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741eb9376048d59d089ca3bfaf179570') in 0.010074 seconds 
+  Import took 0.013535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_6.asset
+  artifactKey: Guid(2b085cebc9587a740ba6015958b56247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_6.asset using Guid(2b085cebc9587a740ba6015958b56247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bbd419b97bda8a79bd041a14cdabc5') in 0.008461 seconds 
+  Import took 0.012146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_2.asset
+  artifactKey: Guid(eacfc6e803b78dd4781796beabf27b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_2.asset using Guid(eacfc6e803b78dd4781796beabf27b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950efaf8aca16077ec24a3f5ee3f4b82') in 0.009730 seconds 
+  Import took 0.013228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_3.asset
+  artifactKey: Guid(2890653df4f19f64b9bed6c923b72be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_3.asset using Guid(2890653df4f19f64b9bed6c923b72be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c64b1410c622ac7884949b7af31f800') in 0.009129 seconds 
+  Import took 0.012731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_12.asset
+  artifactKey: Guid(5ef9f49f3dedbe24d9d5570b7750e2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_12.asset using Guid(5ef9f49f3dedbe24d9d5570b7750e2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f62924e88718b9c60c9f8a265265d55') in 0.009923 seconds 
+  Import took 0.013277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_9.asset
+  artifactKey: Guid(f39cbe5ebc8c51a4c8c1addebc72b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_9.asset using Guid(f39cbe5ebc8c51a4c8c1addebc72b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c166cd14a22414993ae114bb4728e6') in 0.008765 seconds 
+  Import took 0.012311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_13.asset
+  artifactKey: Guid(1fe2ca7ecd9d0b94fa4c2a346f7170dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_13.asset using Guid(1fe2ca7ecd9d0b94fa4c2a346f7170dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a798acea9941a29599c621d352b01e') in 0.009131 seconds 
+  Import took 0.012839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_10.asset
+  artifactKey: Guid(21fa4fc0bf8ef74458519d0b594042e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_10.asset using Guid(21fa4fc0bf8ef74458519d0b594042e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210938dc667bd96087b51a52cdb50cc4') in 0.009581 seconds 
+  Import took 0.012898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_7.asset
+  artifactKey: Guid(74fd7741fb8f0d44a91267a7f1f5fc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_7.asset using Guid(74fd7741fb8f0d44a91267a7f1f5fc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd48696eece665a16acaadeb0eab0b8') in 0.012226 seconds 
+  Import took 0.015418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_14.asset
+  artifactKey: Guid(98722c51d32b87047bc243fb484a22e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken_14.asset using Guid(98722c51d32b87047bc243fb484a22e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063dc2a7845bbe10594f5b645aea309f') in 0.010007 seconds 
+  Import took 0.013379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.151728 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props_118.asset
+  artifactKey: Guid(e9b88edc23e43e848a30a2173df05b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props_118.asset using Guid(e9b88edc23e43e848a30a2173df05b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951d1c3730bdc5326534b43011406d8e') in 0.011271 seconds 
+  Import took 0.014489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.323850 seconds.
+  path: Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deda1769845380ab99fe11f5e5eaf1a') in 0.336301 seconds 
+  Import took 0.339760 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
